@@ -19,7 +19,7 @@ def hello():
         enter()
 
 
-
+tk.Label(a, text="把发送改为enter",bg='green').pack()
 tk.Label(a, text="请打开qq联系人",bg='yellow').pack()
 tk.Button(a, text="点我发送1000条信息", command=hello,bg='red').pack()
 
